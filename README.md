@@ -1,2 +1,4 @@
-# LeetCode
-Solving 1 Leet Code problem every day
+# LeetCode 
+Solving 1 easy Leet Code problem every day
+
+
