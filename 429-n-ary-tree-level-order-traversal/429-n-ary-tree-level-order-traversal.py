@@ -18,6 +18,7 @@ class Solution(object):
             ans[level].append(root.val)
             for child in root.children:
                 dfs(child, level + 1)
+                
         dfs(root, 0)
         return ans
             
