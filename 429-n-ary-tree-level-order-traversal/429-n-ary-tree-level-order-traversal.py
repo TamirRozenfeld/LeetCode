@@ -8,6 +8,8 @@ class Node(object):
 
 class Solution(object):
     def levelOrder(self, root):
+        ans = []
+        
         def dfs(root, level):
             if root == None:
                 return root
@@ -16,7 +18,6 @@ class Solution(object):
             ans[level].append(root.val)
             for child in root.children:
                 dfs(child, level + 1)
-        ans = []
         dfs(root, 0)
         return ans
             
